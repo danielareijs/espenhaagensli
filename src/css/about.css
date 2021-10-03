@@ -1,0 +1,56 @@
+@import "transitions.css";
+
+.about-section {
+    display: flex;
+    /* column-gap: 10px;
+    grid-template-columns: 1fr 1fr; */
+    margin: 80px 0; 
+    align-items: flex-end;
+  }
+  
+  .about-image {
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    width: 100%;
+    max-height: 100%;
+  }
+  
+  .about-info {
+    margin: 0 20px;
+    padding: 0 20px;
+    width: 95%;
+  }
+  
+  .about-info h3 {
+    font-weight: 400;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .about-info h3 {
+      animation-name: transitionRight;
+      animation-duration: 1s;
+      animation-timing-function: ease-in;}
+  }
+  
+  @media only screen and (max-width: 768px){
+    .about-image {
+      height: 300px;
+    }
+  }
+  
+  @media only screen and (max-width: 768px){
+    .about-section {
+      display: block;
+      /* grid-template-columns: 1fr;  */
+    }
+  }
+  
+  @media only screen and (max-width: 768px){
+    .about-info {
+      text-align: center;
+      margin: 0 auto;
+      width: 80%;
+    }
+  }
+  

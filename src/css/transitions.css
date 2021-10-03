@@ -1,0 +1,36 @@
+@keyframes transitionLeft {
+    0% {
+      opacity: 0;
+      margin-left: -500px;
+    }
+    70%{
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+      margin-left: 0;
+    }
+  }
+
+  @keyframes transitionRight {
+    0% {
+      opacity: 0;
+      margin-right: -500px;
+    }
+    70%{
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+      margin-right: 0;
+    }
+  }
+
+  @keyframes transitionIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }

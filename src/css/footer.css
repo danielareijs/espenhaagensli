@@ -1,0 +1,37 @@
+footer {
+    background: rgb(240,240,240);
+    border-top: 1px solid rgb(190,190,190);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+  }
+  
+  .footer-info{
+    padding: 20px 0;
+    font-family: 'Raleway';
+  }
+  
+  footer h3 {
+    font-weight: 400;
+    margin-bottom: 0;
+    letter-spacing: 0.1em;
+  }
+  
+  footer p {
+    font-size: 12px;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: rgb(100,100,100);
+    margin: 0 5px;
+    font-size: 25px;
+  }
+  
+  footer a:hover {
+    color: rgb(150,150,150)
+  }
+  
+  
+  
