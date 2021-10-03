@@ -1402,10 +1402,10 @@
     "@types/yargs" "^15.0.0"
     "chalk" "^4.0.0"
 
-"@jest/types@^27.0.6":
-  "integrity" "sha512-aSquT1qa9Pik26JK5/3rvnYb4bGtm1VFNesHKmNTwmPIgOrixvhL2ghIvFRNEpzy3gU+rUgjIF/KodbkFAl++g=="
-  "resolved" "https://registry.npmjs.org/@jest/types/-/types-27.0.6.tgz"
-  "version" "27.0.6"
+"@jest/types@^27.2.4":
+  "integrity" "sha512-IDO2ezTxeMvQAHxzG/ZvEyA47q0aVfzT95rGFl7bZs/Go0aIucvfDbS2rmnoEdXxlLQhcolmoG/wvL/uKx4tKA=="
+  "resolved" "https://registry.npmjs.org/@jest/types/-/types-27.2.4.tgz"
+  "version" "27.2.4"
   dependencies:
     "@types/istanbul-lib-coverage" "^2.0.0"
     "@types/istanbul-reports" "^3.0.0"
@@ -1607,7 +1607,7 @@
     "@svgr/plugin-svgo" "^5.5.0"
     "loader-utils" "^2.0.0"
 
-"@testing-library/dom@^7.28.1", "@testing-library/dom@>=7.21.4":
+"@testing-library/dom@^7.28.1":
   "integrity" "sha512-3UqjCpey6HiTZT92vODYLPxTBWlM8ZOOjr3LX5F37/VRipW2M1kX6I/Cm4VXzteZqfGfagg8yXywpcOgQBlNsQ=="
   "resolved" "https://registry.npmjs.org/@testing-library/dom/-/dom-7.31.2.tgz"
   "version" "7.31.2"
@@ -1620,6 +1620,20 @@
     "dom-accessibility-api" "^0.5.6"
     "lz-string" "^1.4.4"
     "pretty-format" "^26.6.2"
+
+"@testing-library/dom@>=7.21.4":
+  "integrity" "sha512-nMqxP8qPHgYAiIPMVb6zko5DInPJ/LdILgrkWB5HBJhBCIU5avso8pU9IafnXVGLRq+LDtbvo0LuVbjEo27BgQ=="
+  "resolved" "https://registry.npmjs.org/@testing-library/dom/-/dom-8.7.1.tgz"
+  "version" "8.7.1"
+  dependencies:
+    "@babel/code-frame" "^7.10.4"
+    "@babel/runtime" "^7.12.5"
+    "@types/aria-query" "^4.2.0"
+    "aria-query" "^4.2.2"
+    "chalk" "^4.1.0"
+    "dom-accessibility-api" "^0.5.6"
+    "lz-string" "^1.4.4"
+    "pretty-format" "^27.0.2"
 
 "@testing-library/jest-dom@^5.11.4":
   "integrity" "sha512-dfB7HVIgTNCxH22M1+KU6viG5of2ldoA5ly8Ar8xkezKHKXjRvznCdbMbqjYGgO2xjRbwnR+rR8MLUIqF3kKbQ=="
@@ -2276,10 +2290,10 @@
   "resolved" "https://registry.npmjs.org/ansi-regex/-/ansi-regex-4.1.0.tgz"
   "version" "4.1.0"
 
-"ansi-regex@^5.0.0":
-  "integrity" "sha512-bY6fj56OUQ0hU1KjFNDQuJFezqKdrAyFdIevADiqrWHwSlbmBNMHp5ak2f40Pm8JTFyM2mqxkG6ngkHO11f/lg=="
-  "resolved" "https://registry.npmjs.org/ansi-regex/-/ansi-regex-5.0.0.tgz"
-  "version" "5.0.0"
+"ansi-regex@^5.0.0", "ansi-regex@^5.0.1":
+  "integrity" "sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ=="
+  "resolved" "https://registry.npmjs.org/ansi-regex/-/ansi-regex-5.0.1.tgz"
+  "version" "5.0.1"
 
 "ansi-styles@^3.2.0":
   "integrity" "sha512-VT0ZI6kZRdTh8YyJw3SMbYm/u+NqfsAxEpWO0Pf9sq8/e94WxxOpPKx9FR1FlyCtOVDNOQ+8ntlqFxiRc+r5qA=="
@@ -8985,7 +8999,7 @@
     "lodash" "^4.17.20"
     "renderkid" "^2.0.4"
 
-"pretty-format@^26.6.0", "pretty-format@^26.6.2":
+"pretty-format@^26.6.0":
   "integrity" "sha512-7AeGuCYNGmycyQbCqd/3PWH4eOoX/OiCa0uphp57NVTeAGdJGaAliecxwBDHYQCIvrW7aDBZCYeNTP/WX69mkg=="
   "resolved" "https://registry.npmjs.org/pretty-format/-/pretty-format-26.6.2.tgz"
   "version" "26.6.2"
@@ -8995,23 +9009,23 @@
     "ansi-styles" "^4.0.0"
     "react-is" "^17.0.1"
 
-"pretty-format@^27.0.0":
-  "integrity" "sha512-8tGD7gBIENgzqA+UBzObyWqQ5B778VIFZA/S66cclyd5YkFLYs2Js7gxDKf0MXtTc9zcS7t1xhdfcElJ3YIvkQ=="
-  "resolved" "https://registry.npmjs.org/pretty-format/-/pretty-format-27.0.6.tgz"
-  "version" "27.0.6"
+"pretty-format@^26.6.2":
+  "integrity" "sha512-7AeGuCYNGmycyQbCqd/3PWH4eOoX/OiCa0uphp57NVTeAGdJGaAliecxwBDHYQCIvrW7aDBZCYeNTP/WX69mkg=="
+  "resolved" "https://registry.npmjs.org/pretty-format/-/pretty-format-26.6.2.tgz"
+  "version" "26.6.2"
   dependencies:
-    "@jest/types" "^27.0.6"
+    "@jest/types" "^26.6.2"
     "ansi-regex" "^5.0.0"
-    "ansi-styles" "^5.0.0"
+    "ansi-styles" "^4.0.0"
     "react-is" "^17.0.1"
 
-"pretty-format@^27.0.6":
-  "integrity" "sha512-8tGD7gBIENgzqA+UBzObyWqQ5B778VIFZA/S66cclyd5YkFLYs2Js7gxDKf0MXtTc9zcS7t1xhdfcElJ3YIvkQ=="
-  "resolved" "https://registry.npmjs.org/pretty-format/-/pretty-format-27.0.6.tgz"
-  "version" "27.0.6"
+"pretty-format@^27.0.0", "pretty-format@^27.0.2", "pretty-format@^27.0.6":
+  "integrity" "sha512-NUjw22WJHldzxyps2YjLZkUj6q1HvjqFezkB9Y2cklN8NtVZN/kZEXGZdFw4uny3oENzV5EEMESrkI0YDUH8vg=="
+  "resolved" "https://registry.npmjs.org/pretty-format/-/pretty-format-27.2.4.tgz"
+  "version" "27.2.4"
   dependencies:
-    "@jest/types" "^27.0.6"
-    "ansi-regex" "^5.0.0"
+    "@jest/types" "^27.2.4"
+    "ansi-regex" "^5.0.1"
     "ansi-styles" "^5.0.0"
     "react-is" "^17.0.1"
 
@@ -11282,9 +11296,9 @@
   "version" "0.0.6"
 
 "typescript@^3.2.1 || ^4", "typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta":
-  "integrity" "sha512-gzP+t5W4hdy4c+68bfcv0t400HVJMMd2+H9B7gae1nQlBzCqvrXX+6GL/b3GAgyTH966pzrZ70/fRjwAtZksSQ=="
-  "resolved" "https://registry.npmjs.org/typescript/-/typescript-4.4.2.tgz"
-  "version" "4.4.2"
+  "integrity" "sha512-4xfscpisVgqqDfPaJo5vkd+Qd/ItkoagnHpufr+i2QCHBsNYp+G7UAoyFl8aPtx879u38wPV65rZ8qbGZijalA=="
+  "resolved" "https://registry.npmjs.org/typescript/-/typescript-4.4.3.tgz"
+  "version" "4.4.3"
 
 "unfetch@^4.2.0":
   "integrity" "sha512-F9p7yYCn6cIW9El1zi0HI6vqpeIvBsr3dSuRO6Xuppb1u5rXpCPmMvLSyECLhybr9isec8Ohl0hPekMVrEinDA=="

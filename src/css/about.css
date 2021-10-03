@@ -2,8 +2,6 @@
 
 .about-section {
     display: flex;
-    /* column-gap: 10px;
-    grid-template-columns: 1fr 1fr; */
     margin: 80px 0; 
     align-items: flex-end;
   }
@@ -42,7 +40,6 @@
   @media only screen and (max-width: 768px){
     .about-section {
       display: block;
-      /* grid-template-columns: 1fr;  */
     }
   }
   

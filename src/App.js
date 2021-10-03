@@ -1,12 +1,8 @@
 import './App.css';
-// import LoginButton from './components/LoginButton';
 import LogoutButton from './components/LogoutButton';
-// import Profile from './components/Profile';
 import { useAuth0 } from '@auth0/auth0-react';
 import Navbar from './components/Navbar';
 import Banner from './components/Banner'
-// import Carousel from './components/Carousel';
-// import Slider from './components/Slider'
 import Slideshow from './components/Slideshow'
 import { SliderData } from './components/SliderData';
 import About from './components/About'
@@ -28,7 +24,6 @@ function App() {
         <Route path="/login" render={loginWithRedirect} />
           <Navbar />
           {isLoading && <div>Loading... </div>} 
-          {/* <Profile /> */}
           <Banner />
           <LogoutButton />
           <Slideshow slides={SliderData} />
