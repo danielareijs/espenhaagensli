@@ -3,9 +3,8 @@ import banner from '../images/banner-piano.jpg';
 import '../css/banner.css';
 
 const Banner = () => {
-    // const backgroundImg = 'banner.jpg'
     return (
-        <div className="banner" style={{
+        <div className="banner" id="banner" style={{
             backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(${banner})`,
         }}>
             <div className="banner-text">

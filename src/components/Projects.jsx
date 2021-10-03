@@ -1,10 +1,7 @@
 import React, { useState, useEffect } from 'react';
-// import {ProjectsData} from './ProjectsData';
-// import projects from '../data/projectData.json'
 import AddProject from './AddProject'
 import RemoveButton from './RemoveButton'
 import { useAuth0 } from '@auth0/auth0-react';
-// import useUploadImage from './useUploadImage'
 import '../css/projects.css';
 
 

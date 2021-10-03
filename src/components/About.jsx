@@ -4,7 +4,6 @@ import '../css/about.css';
 const About = () => {
     return (
         <div className="about-section" id="about">
-            {/* <img src="https://static.wixstatic.com/media/nsplsh_6472697235744443574634~mv2_d_4896_3264_s_4_2.jpg/v1/fill/w_980,h_1434,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01/nsplsh_6472697235744443574634~mv2_d_4896_3264_s_4_2.webp"/>             */}
             <div className="about-image" style={{backgroundImage: `url(${aboutImg})`}}></div>
             <div className="about-info">
                 <h2>ABOUT ESPEN HAAGENSLI</h2>

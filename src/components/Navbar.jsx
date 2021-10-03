@@ -3,6 +3,7 @@ import { Link } from 'react-scroll'
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { FaTimes } from 'react-icons/fa'
 import '../css/navbar.css';
+import logo from '../images/espen-logo.png';
 
 
 
@@ -42,7 +43,7 @@ const Navbar = () => {
     
     return (
         <nav id="navbar">
-            <Link to="navbar"><h1>ESPEN HAAGENSLI</h1></Link>
+            <Link to="banner"><img src={logo} /></Link>
             <div>
             <div className="menu-icon" onClick={handleClick}>
                 {click && <FaTimes />}
@@ -74,76 +75,3 @@ const Navbar = () => {
 }
 
 export default Navbar
-
-
-
-{/* <li className="nav-item">
-                    <Link
-                        className="nav-link"
-                        to="banner"
-                        spy={true}
-                        smooth={true}
-                        hashSpy={true}
-                        duration={1000}
-                        offset={-navHeight}
-                        onClick={closeDropdown}
-                        >
-                        Home
-                    </Link>
-                </li>
-                <li className="nav-item">
-                    <Link
-                        className="nav-link"
-                        to="placements"
-                        spy={true}
-                        smooth={true}
-                        hashSpy={true}
-                        duration={1000}
-                        offset={-navHeight}
-                        onClick={closeDropdown}
-                        >
-                        Placements
-                    </Link>
-                </li>
-                <li className="nav-item">
-                    <Link
-                        className="nav-link"
-                        to="about"
-                        spy={true}
-                        smooth={true}
-                        hashSpy={true}
-                        duration={1000}
-                        offset={-navHeight}
-                        onClick={closeDropdown}
-                        >
-                        About
-                    </Link>
-                </li>
-                <li className="nav-item">
-                    <Link
-                        className="nav-link"
-                        to="projects"
-                        spy={true}
-                        smooth={true}
-                        hashSpy={true}
-                        duration={1000}
-                        offset={-navHeight}
-                        onClick={closeDropdown}
-                        >
-                        Music
-                    </Link>
-                </li>
-                <li className="nav-item">
-                    <Link
-                        className="nav-link"
-                        to="contact"
-                        spy={true}
-                        smooth={true}
-                        hashSpy={true}
-                        duration={1000}
-                        offset={-navHeight}
-                        onClick={closeDropdown}
-                        >
-                        Contact
-                    </Link>
-                </li> */}

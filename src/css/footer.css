@@ -12,10 +12,10 @@ footer {
     font-family: 'Raleway';
   }
   
-  footer h3 {
-    font-weight: 400;
+  footer img{
+    max-width: 200px;
+    margin-top: 20px;
     margin-bottom: 0;
-    letter-spacing: 0.1em;
   }
   
   footer p {

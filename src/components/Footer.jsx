@@ -1,14 +1,14 @@
 import React from 'react'
 import {AiOutlineInstagram, AiOutlineMail } from 'react-icons/ai'
 import '../css/footer.css';
+import logo from '../images/espen-logo.png';
+
 
 const Footer = () => {
     return (
         <footer>
             <div className="footer-info">
-                <h3>
-                    ESPEN HAAGENSLI
-                </h3>
+                <img src={logo} />
                  <p>©2021 by Daniela Reijs.</p>
             </div> 
             <div className="footer-links">
