@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Banner from './components/Banner'
 import Slideshow from './components/Slideshow'
 import { SliderData } from './components/SliderData';
+import { ProjectsData } from './components/ProjectsData';
 import About from './components/About'
 import Projects from './components/Projects';
 import Contact from './components/Contact'
@@ -19,18 +20,18 @@ function App() {
 
   return (
     <Router>
-      <Switch> 
+      <Switch>
         <div className="App">
         <Route path="/login" render={loginWithRedirect} />
           <Navbar />
-          {isLoading && <div>Loading... </div>} 
+          {isLoading && <div>Loading... </div>}
           <Banner />
           <LogoutButton />
           <Slideshow slides={SliderData} />
           {isAuthenticated && <AddPlacement />}
           <About/>
           <hr style={{opacity: 0.2}}/>
-          <Projects />
+          <Projects projects={ProjectsData}/>
           <hr style={{opacity: 0.2}}/>
           <Contact />
           <Footer />

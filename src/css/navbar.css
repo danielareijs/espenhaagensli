@@ -16,14 +16,14 @@
   }
 
   #navbar img {
-    width: 55vw;
+    width: 40vw;
     margin: 30px 40px;
     animation-name: transitionLeft;
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
     cursor: pointer;
   }
-  
+
   .nav-menu {
     list-style: none;
     margin-right: 2rem;
@@ -31,7 +31,7 @@
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
   }
-  
+
   .nav-item {
     display: inline;
     padding: 10px;
@@ -40,14 +40,14 @@
   .nav-link {
     cursor: pointer;
   }
-  
+
   .menu-icon {
     display: none;
     font-size: 30px;
     margin: 20px;
     cursor: pointer;
   }
-  
+
   @media screen and (max-width: 960px) {
     .nav-menu {
       display: flex;
@@ -60,7 +60,7 @@
       opacity: 1;
       transition: all 0.5s ease;
     }
-  
+
     .nav-menu.active {
       background: #242222;
       left: 0;
@@ -69,11 +69,11 @@
       z-index: 1;
       padding: 0;
     }
-  
+
     .menu-icon {
       display: block;
     }
-  
+
     .nav-item {
       color: white;
       font-size: 20px;
@@ -88,6 +88,6 @@
     }
   }
 
- 
+
 
 
